@@ -1,0 +1,29 @@
+[
+    {
+        "animal": "Lion",
+        "description": "Big cat",
+        "pictures": [
+            {
+                "title": "Lion 1",
+                "alt": "Beautiful lion",
+                "source": "https://i.pinimg.com/originals/38/97/d1/3897d1657b3f481976e9a4609e4432b0.jpg"
+            }
+        ]
+    },
+    {
+        "animal": "Tiger",
+        "description": "Big cat",
+        "pictures": [
+            {
+                "title": "Tiger One",
+                "alt": "Relaxing",
+                "source": "https://farm4.staticflickr.com/3240/2771889192_b0255e347a_o.jpg"
+            },
+            {
+                "title": "Tiger Two",
+                "alt": "Walking",
+                "source": "https://i.pinimg.com/564x/65/60/f4/6560f47240f89a7893ec83a8f1523a43.jpg"
+            }
+        ]
+    }
+]

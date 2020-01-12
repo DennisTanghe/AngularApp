@@ -1,0 +1,15 @@
+<aside>
+    <nav>
+        <a>Animals Home</a><br/>
+        <a>Lion</a>
+    </nav>
+</aside>
+<article>
+    <h2>Animals Home</h2>
+    <p>Start page of the animals</p>
+    <div *ngFor="let animal of animalData">
+        <h3>{{animal.animal}}</h3>
+        <p>{{animal.description}}</p>
+        <p-galleria [images]="animal.pictures" panelWidth="500" panelHeight="500" [showCaption]="true"></p-galleria>
+    </div>
+</article>

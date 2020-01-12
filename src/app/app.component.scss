@@ -1,24 +1,26 @@
 .root {
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .header {
-    background-color: aquamarine;
-    height: 80px;
+    background-color: powderblue;
+    height: 100px;
 }
 
 .topnav {
-    background-color: brown;
-    height: 30px;
+    background-color: seagreen;
+    height: 40px;
 }
 
 .content {
-    background-color: cornflowerblue;
-    height: calc(100% - 160px);
+    background-color: wheat;
+    height: calc(100% - 190px);
     overflow: auto;
 }
 
 .footer {
-    background-color: darkslategrey;
+    background-color: powderblue;
     height: 50px;
 }
